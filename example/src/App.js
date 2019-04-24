@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Animation, HoverAnimation } from 'rc-animations';
+import { ScrollAnimation, HoverAnimation, EventAnimation } from 'rc-animations';
 const ITEMS = [
   'slideInDown',
   'slideInLeft',
@@ -40,6 +40,17 @@ const ITEMS = [
   'lightSpeedIn'
 ];
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      animate: false
+    };
+  }
+  animate = () => {
+    this.setState({
+      animate: !this.state.animate
+    });
+  };
   render() {
     let items = ITEMS.map((item, index) => {
       let animation = {
@@ -48,13 +59,25 @@ export default class App extends Component {
         fill_mode: 'both'
       };
       return (
-        <Animation key={index} animation={animation}>
+        <ScrollAnimation key={index} animation={animation}>
           <img src='https://drukka.hu/assets/img/drukka_logo.png' />
-        </Animation>
+        </ScrollAnimation>
       );
     });
     return (
       <div>
+        <div>
+          <EventAnimation
+            animation={{ name: 'lightSpeedIn', duration: 3, fill_mode: 'both' }}
+            anime={this.animate}
+            animate={this.state.animate}
+          >
+            <img src='https://drukka.hu/assets/img/drukka_logo.png' />
+          </EventAnimation>
+          <button onClick={this.animate}>
+            <img src='https://drukka.hu/assets/img/drukka_logo.png' />
+          </button>
+        </div>
         <HoverAnimation
           animation={{ name: 'lightSpeedIn', duration: 3, fill_mode: 'both' }}
         >
