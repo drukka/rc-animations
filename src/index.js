@@ -1,22 +1,22 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import TrackVisibility from 'react-on-screen';
+import styles from './styles.css';
 
-import styles from './styles.css'
+const ComponentToTrack = props => {
+  return (
+    <div className={props.isVisible ? styles[props.animation] : styles.anime}>
+      {props.children}
+    </div>
+  );
+};
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+const Animation = props => {
+  return (
+    <TrackVisibility>
+      <ComponentToTrack animation={props.animation}>
+        {props.children}
+      </ComponentToTrack>
+    </TrackVisibility>
+  );
+};
+export default Animation;

@@ -10,22 +10,63 @@
 npm install --save rc-animations
 ```
 
+## Animations
+
+- slideInDown
+- slideInLeft
+- slideInRight
+- slideInUp
+- fadeIn
+- fadeInDown
+- fadeInDownBig
+- fadeInLeft
+- fadeInLeftBig
+- fadeInRight
+- fadeInRightBig
+- fadeInUp
+- fadeInUpBig
+- zoomIn
+- zoomInDown
+- zoomInLeft
+- zoomInRigh
+- zoomInUp
+- bounce
+- bounceIn
+- flip
+- flipInX
+- flipInY
+- rotateIn
+- rotateInDownLeft
+- rotateInDownRight
+- rotateInUpLeft
+- rotateInUpRight
+- flash
+- pulse
+- rubberBand
+- shake
+- swing
+- tada
+- wobble
+- lightSpeedIn
+
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MyComponent from 'rc-animations'
+import Animations from 'rc-animations';
 
-class Example extends Component {
-  render () {
+class App extends Component {
+  render() {
     return (
-      <MyComponent />
-    )
+      <Animation animation='lightSpeedIn'>
+        <img src='https://drukka.hu/assets/img/drukka_logo.png' />
+      </Animation>
+    );
   }
 }
 ```
 
 ## License
 
-MIT © [norco95](https://github.com/norco95)
+MIT © [norco95](https://github.com/drukka/rc-animations)
