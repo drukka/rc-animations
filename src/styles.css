@@ -2,14 +2,7 @@
     opacity: 0;
 }
 
-.slideInDown {
-    -webkit-animation-name: slideInDown;
-    animation-name: slideInDown;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
+
 
 @-webkit-keyframes slideInDown {
     0% {
@@ -40,10 +33,6 @@
 .slideInLeft {
     -webkit-animation-name: slideInLeft;
     animation-name: slideInLeft;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes slideInLeft {
@@ -75,10 +64,6 @@
 .slideInRight {
     -webkit-animation-name: slideInRight;
     animation-name: slideInRight;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes slideInRight {
@@ -110,10 +95,6 @@
 .slideInUp {
     -webkit-animation-name: slideInUp;
     animation-name: slideInUp;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes slideInUp {
@@ -145,10 +126,6 @@
 .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeIn {
@@ -174,10 +151,6 @@
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -211,10 +184,6 @@
 .fadeInDownBig {
     -webkit-animation-name: fadeInDownBig;
     animation-name: fadeInDownBig;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInDownBig {
@@ -248,10 +217,6 @@
 .fadeInLeft {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -285,10 +250,6 @@
 .fadeInLeftBig {
     -webkit-animation-name: fadeInLeftBig;
     animation-name: fadeInLeftBig;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInLeftBig {
@@ -322,10 +283,6 @@
 .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInRight {
@@ -359,10 +316,6 @@
 .fadeInRightBig {
     -webkit-animation-name: fadeInRightBig;
     animation-name: fadeInRightBig;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInRightBig {
@@ -396,10 +349,6 @@
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -433,10 +382,6 @@
 .fadeInUpBig {
     -webkit-animation-name: fadeInUpBig;
     animation-name: fadeInUpBig;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeInUpBig {
@@ -470,10 +415,6 @@
 .zoomIn {
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes zoomIn {
@@ -503,10 +444,6 @@
 .zoomInDown {
     -webkit-animation-name: zoomInDown;
     animation-name: zoomInDown;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes zoomInDown {
@@ -548,10 +485,6 @@
 .zoomInLeft {
     -webkit-animation-name: zoomInLeft;
     animation-name: zoomInLeft;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes zoomInLeft {
@@ -593,10 +526,6 @@
 .zoomInRight {
     -webkit-animation-name: zoomInRight;
     animation-name: zoomInRight;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes zoomInRight {
@@ -638,10 +567,6 @@
 .zoomInUp {
     -webkit-animation-name: zoomInUp;
     animation-name: zoomInUp;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes zoomInUp {
@@ -686,10 +611,6 @@
     -webkit-transform-origin: center bottom;
     -ms-transform-origin: center bottom;
     transform-origin: center bottom;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes bounce {
@@ -763,12 +684,7 @@
 .bounceIn {
     -webkit-animation-name: bounceIn;
     animation-name: bounceIn;
-    -webkit-animation-duration: .75s;
-    animation-duration: .75s;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes bounceIn {
@@ -866,10 +782,6 @@
 .bounceInDown {
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes bounceInDown {
@@ -953,10 +865,6 @@
 .bounceInLeft {
     -webkit-animation-name: bounceInLeft;
     animation-name: bounceInLeft;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes bounceInLeft {
@@ -1040,10 +948,6 @@
 .bounceInRight {
     -webkit-animation-name: bounceInRight;
     animation-name: bounceInRight;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes bounceInRight {
@@ -1127,10 +1031,6 @@
 .bounceInUp {
     -webkit-animation-name: bounceInUp;
     animation-name: bounceInUp;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes bounceInUp {
@@ -1216,10 +1116,6 @@
     backface-visibility: visible;
     -webkit-animation-name: flip;
     animation-name: flip;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes flip {
@@ -1301,10 +1197,7 @@
     backface-visibility: visible !important;
     -webkit-animation-name: flipInX;
     animation-name: flipInX;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes flipInX {
@@ -1378,10 +1271,6 @@
     backface-visibility: visible !important;
     -webkit-animation-name: flipInY;
     animation-name: flipInY;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes flipInY {
@@ -1453,10 +1342,6 @@
 .rotateIn {
     -webkit-animation-name: rotateIn;
     animation-name: rotateIn;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 @-webkit-keyframes rotateIn {
@@ -1498,10 +1383,7 @@
 .rotateInDownLeft {
     -webkit-animation-name: rotateInDownLeft;
     animation-name: rotateInDownLeft;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes rotateInDownLeft {
@@ -1543,10 +1425,7 @@
 .rotateInDownRight {
     -webkit-animation-name: rotateInDownRight;
     animation-name: rotateInDownRight;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes rotateInDownRight {
@@ -1588,10 +1467,7 @@
 .rotateInUpLeft {
     -webkit-animation-name: rotateInUpLeft;
     animation-name: rotateInUpLeft;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes rotateInUpLeft {
@@ -1633,10 +1509,7 @@
 .rotateInUpRight {
     -webkit-animation-name: rotateInUpRight;
     animation-name: rotateInUpRight;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes rotateInUpRight {
@@ -1678,10 +1551,7 @@
 .flash {
     -webkit-animation-name: flash;
     animation-name: flash;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes flash {
@@ -1715,10 +1585,7 @@
 .pulse {
     -webkit-animation-name: pulse;
     animation-name: pulse;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes pulse {
@@ -1758,10 +1625,7 @@
 .rubberBand {
     -webkit-animation-name: rubberBand;
     animation-name: rubberBand;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes rubberBand {
@@ -1841,10 +1705,7 @@
 .shake {
     -webkit-animation-name: shake;
     animation-name: shake;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes shake {
@@ -1905,10 +1766,7 @@
     transform-origin: top center;
     -webkit-animation-name: swing;
     animation-name: swing;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes swing {
@@ -1968,10 +1826,7 @@
 .tada {
     -webkit-animation-name: tada;
     animation-name: tada;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes tada {
@@ -2043,10 +1898,7 @@
 .wobble {
     -webkit-animation-name: wobble;
     animation-name: wobble;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes wobble {
@@ -2128,10 +1980,7 @@
     animation-name: lightSpeedIn;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes lightSpeedIn {
