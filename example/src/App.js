@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Animation from 'rc-animations';
+import { Animation, HoverAnimation } from 'rc-animations';
 const ITEMS = [
   'slideInDown',
   'slideInLeft',
@@ -42,12 +42,26 @@ const ITEMS = [
 export default class App extends Component {
   render() {
     let items = ITEMS.map((item, index) => {
+      let animation = {
+        name: item,
+        duration: 3,
+        fill_mode: 'both'
+      };
       return (
-        <Animation key={index} animation={item}>
+        <Animation key={index} animation={animation}>
           <img src='https://drukka.hu/assets/img/drukka_logo.png' />
         </Animation>
       );
     });
-    return <div>{items}</div>;
+    return (
+      <div>
+        <HoverAnimation
+          animation={{ name: 'lightSpeedIn', duration: 3, fill_mode: 'both' }}
+        >
+          <img src='https://drukka.hu/assets/img/drukka_logo.png' />
+        </HoverAnimation>
+        {items}
+      </div>
+    );
   }
 }
