@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-animations'
+import ExampleComponent from 'rc-animations'
 
 export default class App extends Component {
   render () {

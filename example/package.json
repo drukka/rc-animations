@@ -1,6 +1,6 @@
 {
-  "name": "react-animations-example",
-  "homepage": "https://norco95.github.io/react-animations",
+  "name": "rc-animations-example",
+  "homepage": "https://norco95.github.io/rc-animations",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "react-animations": "link:.."
+    "rc-animations": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",
