@@ -4,7 +4,6 @@ body {
     font-family: sans-serif;
     overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.8);
-
 }
 
 img {
@@ -12,4 +11,11 @@ img {
     margin: auto;
     margin-top: 200px;
     margin-bottom: 200px;
+}
+
+.progress {
+    width: 200px;
+    height: 16px;
+    margin: auto;
+    margin-top: 10px;
 }
