@@ -2,8 +2,6 @@
     opacity: 0;
 }
 
-
-
 @-webkit-keyframes slideInDown {
     0% {
         -webkit-transform: translateY(-100%);
@@ -2033,4 +2031,16 @@
         transform: none;
         opacity: 1;
     }
+}
+
+.progress {
+    position: relative;
+}
+
+.progress p {
+    position: absolute;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
 }

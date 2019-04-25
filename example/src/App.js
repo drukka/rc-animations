@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 
-import { ScrollAnimation, HoverAnimation, EventAnimation } from 'rc-animations';
+import {
+  ScrollAnimation,
+  HoverAnimation,
+  EventAnimation,
+  Progressbar
+} from 'rc-animations';
+
 const ITEMS = [
   'slideInDown',
   'slideInLeft',
@@ -43,8 +49,21 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      animate: false
+      animate: false,
+      value: 0
     };
+
+    var x = setInterval(
+      function() {
+        this.setState({
+          value: this.state.value + 10
+        });
+        if (this.state.value === 100) {
+          clearInterval(x);
+        }
+      }.bind(this),
+      500
+    );
   }
   animate = () => {
     this.setState({
@@ -64,8 +83,17 @@ export default class App extends Component {
         </ScrollAnimation>
       );
     });
+
     return (
       <div>
+        <div className='progress'>
+          <Progressbar
+            value={this.state.value}
+            barColor='red'
+            progressColor='blue'
+            withValue={true}
+          />
+        </div>
         <div>
           <EventAnimation
             animation={{ name: 'lightSpeedIn', duration: 3, fill_mode: 'both' }}
